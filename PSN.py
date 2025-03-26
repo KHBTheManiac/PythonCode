@@ -1,0 +1,7 @@
+pns = int(input("입력 진수 결정: "))
+value = input("값 입력: ")
+dec = int(value,pns)
+print("16진수 ==>",hex(dec))
+print("10진수 ==>",dec)
+print("8진수 ==>",oct(dec))
+print("2진수 ==>",bin(dec))
